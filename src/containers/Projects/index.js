@@ -19,9 +19,9 @@ const Projects = () => (
                     <div className="card-body">
                         <h5 className="card-title">Prime Technologies</h5>
                         <p className="card-text">A responsive Tech company's website.</p>
-                        <div class="btn-group d-flex flex-sm-column flex-md-row justify-content-center" role="group" aria-label="Basic example">
-                            <a href="https://github.com/Marcuswebb1211/prime-technologies" target="_blank" class="btn btn-secondary">View Code</a>
-                            <a href="https://marcuswebb1211.github.io/prime-technologies/" target="_blank"class="btn btn-primary">Visit Site</a>
+                        <div className="btn-group d-flex flex-sm-column flex-md-row justify-content-center" role="group" aria-label="Basic example">
+                            <a href="https://github.com/Marcuswebb1211/prime-technologies" target="_blank" className="btn btn-secondary">View Code</a>
+                            <a href="https://marcuswebb1211.github.io/prime-technologies/" target="_blank" className="btn btn-primary">Visit Site</a>
                         </div>
                     </div>
                     <div className="card-footer">
@@ -33,9 +33,9 @@ const Projects = () => (
                     <div className="card-body">
                     <h5 className="card-title">Grabengo</h5>
                     <p className="card-text">A responsive Grocery List application.</p>
-                    <div class="btn-group d-flex flex-sm-column flex-md-row justify-content-center" role="group" aria-label="Basic example">
-                            <a href="https://github.com/Marcuswebb1211/grabengo" target="_blank" class="btn btn-secondary">View Code</a>
-                            <a href="https://marcuswebb1211.github.io/grabengo/" target="_blank"class="btn btn-primary">Visit Site</a>
+                    <div className="btn-group d-flex flex-sm-column flex-md-row justify-content-center" role="group" aria-label="Basic example">
+                            <a href="https://github.com/Marcuswebb1211/grabengo" target="_blank" className="btn btn-secondary">View Code</a>
+                            <a href="https://marcuswebb1211.github.io/grabengo/" target="_blank" className="btn btn-primary">Visit Site</a>
                         </div>
                     </div>
                     <div className="card-footer">
