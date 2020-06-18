@@ -1,0 +1,67 @@
+
+body {
+    background-color: #17a2b8;
+}
+
+.top-half {
+    background-color: #343a40;
+}
+
+.card-image {
+    
+    height: 130px;
+    width: 130px;
+    border: 3px solid #f5f5f5;
+    border-radius: 50%
+}
+
+.selfie {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card-title {
+    color: #17a2b8;
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #d3cfcf;
+    font-size: 1.5em;
+}
+
+.social-media a:hover {
+    color: #17a2b8;
+}
+
+.bottom-half {
+    height: 100%;
+    background-color: #fff;
+    
+}
+
+.unique {
+    color: #17a2b8;
+}
+
+.extra-info {
+    font-size: .99em;
+}
+
+.knowledge-article {
+    font-size: 1em;
+}
+
+.skill-table {
+    width: 100%;
+}
+
+.skill-set {
+    margin: 10px 0;
+}
+
+
+.bootstrap-purple {
+    background-color: #7952b3;
+}
