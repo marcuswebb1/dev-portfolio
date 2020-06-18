@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-  <Router basename="/dev-portfolio" component={About}>
+  <Router basename="/dev-portfolio" component={App}>
     <Route exact path="/" component={App}/>
     <Route path="/about" component={About}/>
     <Route path="/resume" component={Resume}/>
