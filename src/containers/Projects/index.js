@@ -42,8 +42,6 @@ const Projects = () => (
                     <small className="text-muted">Built with HTML, CSS, React, and Bootstrap</small>
                     </div>
                 </div>
-<<<<<<< HEAD
-=======
                 {/* <div className="card">
                     <img src="..." className="card-img-top" alt="..."/>
                     <div className="card-body">
@@ -54,7 +52,6 @@ const Projects = () => (
                     <small className="text-muted">Last updated 3 mins ago</small>
                     </div>
                 </div> */}
->>>>>>> a7fe4527a16e6d868e9e9fe4de47f443a4599f95
             </div>
         </div>
         <footer className="projects-footer text-center">2019 &copy; Marcus Webb</footer>
