@@ -42,6 +42,19 @@ const Projects = () => (
                     <small className="text-muted">Built with HTML, CSS, React, and Bootstrap</small>
                     </div>
                 </div>
+<<<<<<< HEAD
+=======
+                {/* <div className="card">
+                    <img src="..." className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                    <h5 className="card-title">Card title</h5>
+                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    </div>
+                    <div className="card-footer">
+                    <small className="text-muted">Last updated 3 mins ago</small>
+                    </div>
+                </div> */}
+>>>>>>> a7fe4527a16e6d868e9e9fe4de47f443a4599f95
             </div>
         </div>
         <footer className="projects-footer text-center">2019 &copy; Marcus Webb</footer>
