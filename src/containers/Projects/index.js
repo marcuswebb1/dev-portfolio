@@ -42,7 +42,7 @@ const Projects = () => (
                         <small className="text-muted">Built with HTML, CSS, React, and Bootstrap</small>
                     </div>
                 </div>
-                <div className="card">
+                {/* <div className="card">
                     <img src="..." className="card-img-top" alt="..."/>
                     <div className="card-body">
                     <h5 className="card-title">Card title</h5>
@@ -51,7 +51,7 @@ const Projects = () => (
                     <div className="card-footer">
                         <small className="text-muted">Built with HTML, CSS, React, and Bootstrap</small>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
         <footer className="projects-footer text-center">2019 &copy; Marcus Webb</footer>
