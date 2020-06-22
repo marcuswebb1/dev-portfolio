@@ -18,10 +18,10 @@ const About = () => (
                     <h2 className="card-title text-center">Marcus Webb</h2>
                     <p className="card-text text-white">Full-Stack Software Developer &amp; Designer</p>
                     <div className="social-media d-flex flex-row justify-content-around mx-auto mb-3 col-4">
-                        <a href="https://github.com/Marcuswebb1211" target="_blank">
+                        <a href="https://github.com/Marcuswebb1211" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-github" aria-hidden="true"></i>
                         </a>
-                        <a href="http://linkedin.com/in/marcus-webb-15171a126" target="_blank">
+                        <a href="http://linkedin.com/in/marcus-webb-15171a126" target="_blank" rel="noopener noreferrer">
                         <i className="fa fa-linkedin-square" aria-hidden="true"></i>
                         </a>
                     </div>
