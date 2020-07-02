@@ -3,7 +3,7 @@ import './about.css'
 import Header from '../../components/Header'
 
 import Selfie from '../../img/GetPersonaPhoto.jpeg'
-import ResumeFile from "../Resume/IT-Resume.docx"
+import ResumeFile from "../Resume/resume.pdf"
 
 
 const About = () => (
@@ -52,11 +52,11 @@ const About = () => (
                     </div>
                     <div className="row">
                     <div className="col col-title">Freelance:</div>
-                    <div className="col text-success">Available *</div>
+                    <div className="col text-success">#OpenToWork</div>
                     </div>
                     <div className="row">
                     <div className="col col-title">Employment:</div>
-                    <div className="col text-warning">Looking for Employment</div>
+                    <div className="col text-success">#OpenToWork</div>
                     </div>
                 </div>
                 <div className="knowledge-article">

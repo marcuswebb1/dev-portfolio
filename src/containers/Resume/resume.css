@@ -19,6 +19,13 @@
     border-bottom-right-radius: 7px;
 }
 
+.laid-off {
+    margin: 3px 0;
+    padding: 10px;
+    display: block;
+    font-size: .7em;
+}
+
 @media only screen and (max-width: 940px) {
     .box-text-sm {
         height: 250px;

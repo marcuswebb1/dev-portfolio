@@ -2,7 +2,7 @@ import React from 'react'
 import './resume.css'
 import Header from '../../components/Header'
 
-import ResumeFile from "../Resume/IT-Resume.docx"
+import ResumeFile from "../Resume/resume.pdf"
 
 const Resume = () => (
     <>
@@ -46,7 +46,7 @@ const Resume = () => (
                             <div className="card cards text-dark bg-light mb-3">
                                 <div className="card-header text-info">Public Consulting Group</div>
                                 <div className="card-body">
-                                    <h5 className="card-title text-dark">IT Implementation Specialist (March 2020 - <span className="text-info">April 2020</span>)</h5>
+                                    <h5 className="card-title text-dark">IT Implementation Specialist (March 2020 - <span className="text-info">April 2020</span>)<span className="laid-off text-center text-danger bg-warning">- Laid off due to the effects of the coronavirus</span></h5>
                                     <ul className="box-card-text box-text-sm">
                                         <li>Supports customer service and operations for clients by serving as the frontline for customer inquiries prioritizing and resolving to provide the best customer experience</li>
                                         <li>Responsible for initiative planning and ongoing client relationship management</li>
