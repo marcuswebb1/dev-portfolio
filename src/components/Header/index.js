@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const Header = () => (
     <nav className="navbar main-nav navbar-expand-lg navbar-dark bg-dark">
@@ -14,19 +14,19 @@ const Header = () => (
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <Link to="/" className="navbar-brand text-light" href="index.html">Marcus Webb</Link>
+        <NavLink to="/about" className="navbar-brand text-light">Marcus Webb</NavLink>
 
         <div className="collapse navbar-collapse navigation bg-dark" id="navbarNav">
           <ul className="navbar-nav text-center">
-            <li className="nav-item active">
-              <Link className="nav-link" to="/about"
-                >About <span className="sr-only">(current)</span></Link>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="/about"
+                >About</NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/resume">Resume</Link>
+              <NavLink className="nav-link" to="/resume">Resume</NavLink>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/projects">Projects</Link>
+              <NavLink className="nav-link" to="/projects">Projects</NavLink>
             </li>
           </ul>
         </div>
